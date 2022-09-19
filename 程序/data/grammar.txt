@@ -1,0 +1,10 @@
+Start Step Listen Default Speak Silence Brunch Compare Compute Wrong Right Exit Back , + id str num & Add Delete
+S -> A id | Speak B | Listen C | Brunch D | Silence id 
+S-> Default id | Compare &id | Compute E | Wrong id | Right id |Exit | Back
+S-> Add &id | Delete &id
+A-> Step | Start
+B -> T + B | T
+T -> & id | str
+C -> num , num
+D ->str , id
+E -> &id , &id | &id,num

@@ -1,0 +1,62 @@
+Start welcome
+Speak "尊敬的用户，您好！欢迎使用超磨叽天气"
+Default home
+
+Step home
+Speak "请问您想询问什么？"
+Listen 1,15
+Brunch "温度",tempProc
+Brunch "气温",tempProc
+Brunch "冷", tempProc
+Brunch "热", tempProc
+Brunch "天气", weatherProc
+Brunch "湿", humidityProc
+Brunch "风", windProc
+Brunch "空气", airProc
+Brunch "知道", listProc
+Brunch "投诉",complainProc
+Brunch "退出", exitProc
+Silence silenceProc
+Default defaultProc
+
+Step silenceProc
+Speak "抱歉，没有听清楚，可以重复一遍吗？"
+Back
+
+Step defaultProc
+Speak "非常抱歉，我还无法理解您说的话。您可以问我天气状况，空气质量，气温等"
+Back
+
+Step tempProc
+Speak "今最高气温："+&h_temp+" 最低气温："+&l_temp
+Default home
+
+Step weatherProc
+Speak &area + " "+&date+" 天气："+&type+" 最高气温："+&h_temp+" 最低气温："+&l_temp+"空气状况："+&pollution
+Default home
+
+Step humidityProc
+Speak "今天空气湿度为："+&humidity
+Default home
+
+Step windProc
+Speak "今天"+&wind
+Default home
+
+Step airProc
+Speak "今天空气质量："+&pollution+" PM2.5指数为："+&PM2_5
+Default home
+
+Step listProc
+Speak "你可以问我天气天气状况，空气质量，气温，空气湿度，风力"
+Back
+
+Step complainProc
+Speak "不接受投诉，再见！"
+Exit
+
+Step exitProc
+Speak "感谢您的使用，祝您每天都有好心情。再见！"
+Exit
+
+

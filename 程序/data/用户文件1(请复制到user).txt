@@ -1,0 +1,4 @@
+phoneNumber
+id name phoneNumber business remainder balance bill cardNumber password
+1 张三 186 语音通话|来电提示| 无限流量|套餐C|套餐D| 50.00 10.00 aaaaaa 111111
+2 李四 187 语音通话| 套餐A|套餐B|套餐C|套餐D| 150.00 20.00 bbbbbb 000000

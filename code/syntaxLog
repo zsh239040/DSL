@@ -1,0 +1,786 @@
+开始分析：
+符号栈:	0	输入栈:	$idStart	分析语句:	shift
+符号栈:	0Start15	输入栈:	$id	分析语句:	reduce by A->Start
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$str+id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str+id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$str+id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$str+id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$str+id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$str+id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$str+	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$str+	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45+48T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$str+id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str+id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$str+id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$str+id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$str+id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$str+id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$str+	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$str+	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45+48T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$str+id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str+id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$str+id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$str+id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$str+id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$str+id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$str+	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$str+	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45+48T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Exit	分析语句:	shift
+符号栈:	0Exit9	输入栈:	$	分析语句:	reduce by S->Exit
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Compare	分析语句:	shift
+符号栈:	0Compare5	输入栈:	$id&	分析语句:	shift
+符号栈:	0Compare5&25	输入栈:	$id	分析语句:	shift
+符号栈:	0Compare5&25id26	输入栈:	$	分析语句:	reduce by S->Compare&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idRight	分析语句:	shift
+符号栈:	0Right11	输入栈:	$id	分析语句:	shift
+符号栈:	0Right11id41	输入栈:	$	分析语句:	reduce by S->Rightid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idWrong	分析语句:	shift
+符号栈:	0Wrong17	输入栈:	$id	分析语句:	shift
+符号栈:	0Wrong17id50	输入栈:	$	分析语句:	reduce by S->Wrongid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Compare	分析语句:	shift
+符号栈:	0Compare5	输入栈:	$id&	分析语句:	shift
+符号栈:	0Compare5&25	输入栈:	$id	分析语句:	shift
+符号栈:	0Compare5&25id26	输入栈:	$	分析语句:	reduce by S->Compare&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idRight	分析语句:	shift
+符号栈:	0Right11	输入栈:	$id	分析语句:	shift
+符号栈:	0Right11id41	输入栈:	$	分析语句:	reduce by S->Rightid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idWrong	分析语句:	shift
+符号栈:	0Wrong17	输入栈:	$id	分析语句:	shift
+符号栈:	0Wrong17id50	输入栈:	$	分析语句:	reduce by S->Wrongid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,id&Compute	分析语句:	shift
+符号栈:	0Compute6	输入栈:	$num,id&	分析语句:	shift
+符号栈:	0Compute6&27	输入栈:	$num,id	分析语句:	shift
+符号栈:	0Compute6&27id29	输入栈:	$num,	分析语句:	shift
+符号栈:	0Compute6&27id29,30	输入栈:	$num	分析语句:	shift
+符号栈:	0Compute6&27id29,30num32	输入栈:	$	分析语句:	reduce by E->&id,num
+符号栈:	0Compute6E28	输入栈:	$	分析语句:	reduce by S->ComputeE
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$str+id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str+id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$str+id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$str+id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$str+id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$str+id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$str+	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$str+	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14T45+48T45+48str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45+48T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Compare	分析语句:	shift
+符号栈:	0Compare5	输入栈:	$id&	分析语句:	shift
+符号栈:	0Compare5&25	输入栈:	$id	分析语句:	shift
+符号栈:	0Compare5&25id26	输入栈:	$	分析语句:	reduce by S->Compare&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idRight	分析语句:	shift
+符号栈:	0Right11	输入栈:	$id	分析语句:	shift
+符号栈:	0Right11id41	输入栈:	$	分析语句:	reduce by S->Rightid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idWrong	分析语句:	shift
+符号栈:	0Wrong17	输入栈:	$id	分析语句:	shift
+符号栈:	0Wrong17id50	输入栈:	$	分析语句:	reduce by S->Wrongid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Delete	分析语句:	shift
+符号栈:	0Delete8	输入栈:	$id&	分析语句:	shift
+符号栈:	0Delete8&35	输入栈:	$id	分析语句:	shift
+符号栈:	0Delete8&35id36	输入栈:	$	分析语句:	reduce by S->Delete&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Add	分析语句:	shift
+符号栈:	0Add2	输入栈:	$id&	分析语句:	shift
+符号栈:	0Add2&19	输入栈:	$id	分析语句:	shift
+符号栈:	0Add2&19id20	输入栈:	$	分析语句:	reduce by S->Add&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$num,numListen	分析语句:	shift
+符号栈:	0Listen10	输入栈:	$num,num	分析语句:	shift
+符号栈:	0Listen10num38	输入栈:	$num,	分析语句:	shift
+符号栈:	0Listen10num38,39	输入栈:	$num	分析语句:	shift
+符号栈:	0Listen10num38,39num40	输入栈:	$	分析语句:	reduce by C->num,num
+符号栈:	0Listen10C37	输入栈:	$	分析语句:	reduce by S->ListenC
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id,strBrunch	分析语句:	shift
+符号栈:	0Brunch4	输入栈:	$id,str	分析语句:	shift
+符号栈:	0Brunch4str22	输入栈:	$id,	分析语句:	shift
+符号栈:	0Brunch4str22,23	输入栈:	$id	分析语句:	shift
+符号栈:	0Brunch4str22,23id24	输入栈:	$	分析语句:	reduce by D->str,id
+符号栈:	0Brunch4D21	输入栈:	$	分析语句:	reduce by S->BrunchD
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Compare	分析语句:	shift
+符号栈:	0Compare5	输入栈:	$id&	分析语句:	shift
+符号栈:	0Compare5&25	输入栈:	$id	分析语句:	shift
+符号栈:	0Compare5&25id26	输入栈:	$	分析语句:	reduce by S->Compare&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idRight	分析语句:	shift
+符号栈:	0Right11	输入栈:	$id	分析语句:	shift
+符号栈:	0Right11id41	输入栈:	$	分析语句:	reduce by S->Rightid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idWrong	分析语句:	shift
+符号栈:	0Wrong17	输入栈:	$id	分析语句:	shift
+符号栈:	0Wrong17id50	输入栈:	$	分析语句:	reduce by S->Wrongid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idSilence	分析语句:	shift
+符号栈:	0Silence13	输入栈:	$id	分析语句:	shift
+符号栈:	0Silence13id42	输入栈:	$	分析语句:	reduce by S->Silenceid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Add	分析语句:	shift
+符号栈:	0Add2	输入栈:	$id&	分析语句:	shift
+符号栈:	0Add2&19	输入栈:	$id	分析语句:	shift
+符号栈:	0Add2&19id20	输入栈:	$	分析语句:	reduce by S->Add&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&Delete	分析语句:	shift
+符号栈:	0Delete8	输入栈:	$id&	分析语句:	shift
+符号栈:	0Delete8&35	输入栈:	$id	分析语句:	shift
+符号栈:	0Delete8&35id36	输入栈:	$	分析语句:	reduce by S->Delete&id
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idDefault	分析语句:	shift
+符号栈:	0Default7	输入栈:	$id	分析语句:	shift
+符号栈:	0Default7id34	输入栈:	$	分析语句:	reduce by S->Defaultid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$id&+strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$id&+str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$id&+	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$id&+	分析语句:	shift
+符号栈:	0Speak14T45+48	输入栈:	$id&	分析语句:	shift
+符号栈:	0Speak14T45+48&43	输入栈:	$id	分析语句:	shift
+符号栈:	0Speak14T45+48&43id47	输入栈:	$	分析语句:	reduce by T->&id
+符号栈:	0Speak14T45+48T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14T45+48B49	输入栈:	$	分析语句:	reduce by B->T+B
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$Back	分析语句:	shift
+符号栈:	0Back3	输入栈:	$	分析语句:	reduce by S->Back
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$idStep	分析语句:	shift
+符号栈:	0Step16	输入栈:	$id	分析语句:	reduce by A->Step
+符号栈:	0A1	输入栈:	$id	分析语句:	shift
+符号栈:	0A1id18	输入栈:	$	分析语句:	reduce by S->Aid
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束
+开始分析：
+符号栈:	0	输入栈:	$strSpeak	分析语句:	shift
+符号栈:	0Speak14	输入栈:	$str	分析语句:	shift
+符号栈:	0Speak14str46	输入栈:	$	分析语句:	reduce by T->str
+符号栈:	0Speak14T45	输入栈:	$	分析语句:	reduce by B->T
+符号栈:	0Speak14B44	输入栈:	$	分析语句:	reduce by S->SpeakB
+符号栈:	0S12	输入栈:	$	分析语句:	分析结束

@@ -1,0 +1,143 @@
+Start welcome
+Speak "尊敬的" + &name + ",您好!"
+Default home
+
+Step home
+Speak "请问有什么可以帮您?"
+Listen 1,15
+Brunch "账单",billProc
+Brunch "投诉",complainProc
+Brunch "余额",balanceProc
+Brunch "业务列表",businessList
+Brunch "套餐列表",userBusiness
+Brunch "充值",rechargeProc
+Brunch "退出",thanksProc
+Silence silenceProc
+Default defaultProc
+
+Step billProc
+Speak "您本月账单是" + &bill +"元。请问您还有什么需求？"
+Back
+
+Step complainProc
+Speak "您的意见是我们改进工作的动力，请问您有什么补充？"
+Listen 1,15
+Default thanksProc
+
+Step balanceProc
+Speak "本月余额为:" +&balance +"元。您可以选择充值服务、查询账单服务或返回上级服务菜单。"
+Listen 1,15
+Brunch "账单",billProc
+Brunch "充值",rechargeProc
+Brunch "上级",home
+Silence silenceProc
+Default defaultProc
+
+
+Step silenceProc
+Speak "抱歉，没有听清楚，可以重复一遍吗？"
+Back
+
+Step defaultProc
+Speak "非常抱歉，暂时未开放此业务。您可以对我说" + &recommend
+Back
+
+Step thanksProc
+Speak "感谢您的来电，祝您生活愉快。"
+Exit
+
+Step businessList
+Speak "您可以对我说" + &recommend
+Back
+
+Step rechargeProc
+Speak "目前支持充值卡充值，请输入充值卡卡号，或对我说返回上级菜单"
+Listen 1,15
+Brunch "上级",home
+Compare &cardNumber
+Right inputPsw
+Wrong invalid
+Silence silenceProc
+Default invalid
+
+Step invalid
+Speak "格式错误或输入有误，请重新输入。"
+Back
+
+Step inputPsw
+Speak "请输入充值卡密码"
+Listen 1,15
+Compare &password
+Right success
+Wrong wrongPwd
+Default invalid
+
+Step success
+Speak "充值成功！"
+Compute &balance , 50
+Default home
+
+Step wrongPwd
+Speak "密码错误！，请重新输入。"
+Back
+
+Step userBusiness
+Speak "您办理的套餐有：" +&business +"您可以取消已有套餐、办理新套餐或返回上级菜单"
+Listen 1,15
+Brunch "取消",cancelBusiness
+Brunch "办理", addBusiness
+Brunch "上级",home
+Silence silenceProc
+Default defaultProc
+
+Step cancelBusiness
+Speak "请说出想要取消的套餐。返回上级请说’上级‘"
+Listen 1,15
+Brunch "套餐列表",userBusiness
+Brunch "上级",home
+Compare &business
+Right cancelSuccess
+Wrong cancelWrong
+Silence silenceProc
+Default cancelBusiness
+
+Step cancelSuccess
+Speak "取消套餐成功。即月起生效"
+Delete &business
+Add &remainder
+Default home
+
+Step cancelWrong
+Speak "套餐不存在。您可以对我说”套餐列表“获取已有套餐名称"
+Back
+
+Step addBusiness
+Speak "请说出想要添加的套餐,或者对我说'套餐列表'获取可以添加的套餐，返回上级请说‘上级’"
+Listen 1,15
+Brunch "套餐列表",allBusiness
+Brunch "上级",home
+Compare &remainder
+Right addSuccess
+Wrong addWrong
+Silence silenceProc
+Default addBusiness
+
+Step addSuccess
+Speak "添加套餐成功，即月起生效"
+Add &business
+Delete &remainder
+Default home
+
+Step addWrong
+Speak "套餐不存在。"
+Default addBusiness
+
+Step allBusiness
+Speak "您还可以办理：" + &remainder
+Back
+
+Step robot
+Speak "啊，怎么会呢，肯定是员工接顾客电话的啦，我们联通呢都是经过同一严格的培训的呢。"
+
+
+

@@ -1,0 +1,19 @@
+﻿  Errors.cpp
+  Interpreter.cpp
+C:\Users\EVA\Desktop\C++\DSL\DSL\Interpreter.cpp(154,18): warning C4244:  “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\EVA\Desktop\C++\DSL\DSL\Interpreter.cpp(155,16): warning C4244:  “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\EVA\Desktop\C++\DSL\DSL\Interpreter.cpp(212,16): warning C4244:  “初始化”: 从“int”转换到“float”，可能丢失数据
+C:\Users\EVA\Desktop\C++\DSL\DSL\Interpreter.cpp(215,14): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  Lexical.cpp
+C:\Users\EVA\Desktop\C++\DSL\DSL\Interpreter.cpp(217,14): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  main.cpp
+  ParserTree.cpp
+  Parser.cpp
+  User.cpp
+C:\Users\EVA\Desktop\C++\DSL\DSL\Lexical.cpp(19,19): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\EVA\Desktop\C++\DSL\DSL\User.cpp(51,22): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\EVA\Desktop\C++\DSL\DSL\User.cpp(78,20): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\EVA\Desktop\C++\DSL\DSL\User.cpp(82,20): warning C4018:  “<”: 有符号/无符号不匹配
+  正在生成代码...
+C:\Users\EVA\Desktop\C++\DSL\DSL\User.cpp(85,21): warning C4018:  “<”: 有符号/无符号不匹配
+  DSL.vcxproj -> C:\Users\EVA\Desktop\C++\DSL\Debug\DSL.exe
